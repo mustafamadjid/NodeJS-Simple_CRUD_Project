@@ -31,6 +31,7 @@ form.addEventListener("submit", function (event) {
   event.preventDefault();
   if (confirm("Apakah anda yakin ingin menambahkan data?")) {
     addNewUserData();
-    updateForm.reset();
+    form.reset();
+    window.location.href = "service.html";
   }
 });
