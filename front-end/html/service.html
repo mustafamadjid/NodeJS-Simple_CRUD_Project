@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/ffa1f06e44.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>User Data Services</title>
+  </head>
+  <body>
+    <!--NAVBAR START-->
+    <nav class="main-navbar">
+      <div class="nav-wrapper">
+        <div class="logo">
+          <h1>Data Service</h1>
+        </div>
+        <ul>
+          <li class="nav-active"><a href="index.html">Beranda</a></li>
+          <li class="nav-active nav-now">
+            <a href="service.html">Lihat Data</a>
+          </li>
+          <li class="nav-active"><a href="#">Artikel</a></li>
+        </ul>
+      </div>
+
+      <div class="nav-wrapper">
+        <ul>
+          <li class="nav-masuk">
+            <a href="#"><i class="fa-solid fa-right-to-bracket"></i> Masuk</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--NAVBAR END-->
+
+    <main class="container">
+      <div class="add-btn-wrapper">
+        <div class="add-btn">
+          <a href="service-form.html">Tambah Data</a>
+          <a href="service-form.html"
+            <i class="fa-solid fa-plus"></i></a>
+        </div>
+      </div>
+      <div class="table-wrapper-main">
+        <div class="table-wrapper-second">
+          <div class="table-wrapper-third">
+            <table class="content-table">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Nama</th>
+                  <th>Umur</th>
+                  <th>Email</th>
+                  <th>Alamat</th>
+                  <th>No.Telephone</th>
+                  <th>Kelola Data</th>
+                </tr>
+              </thead>
+              <tbody id="table-body"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="../JS/getData.js"></script>
+  </body>
+</html>

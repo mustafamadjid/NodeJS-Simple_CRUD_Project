@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/ffa1f06e44.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>User Data Services</title>
+  </head>
+  <body>
+    <!--NAVBAR START-->
+    <nav class="main-navbar">
+      <div class="nav-wrapper">
+        <div class="logo">
+          <h1>Data Service</h1>
+        </div>
+        <ul>
+          <li class="nav-active"><a href="index.html">Beranda</a></li>
+          <li class="nav-active">
+            <a href="service.html">Lihat Data</a>
+          </li>
+          <li class="nav-active"><a href="#">Artikel</a></li>
+        </ul>
+      </div>
+
+      <div class="nav-wrapper">
+        <ul>
+          <li class="nav-masuk">
+            <a href="#"><i class="fa-solid fa-right-to-bracket"></i> Masuk</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--NAVBAR END-->
+
+    <main class="container">
+      <div class="formbold-main-wrapper">
+        <!-- Author: FormBold Team -->
+        <!-- Learn More: https://formbold.com -->
+        <div class="formbold-form-wrapper">
+          <form action="" method="" id="update-form">
+            <div class="formbold-form-title">
+              <h2 class="">Ubah Data Anda</h2>
+              <p>
+                Silahkan Ubah Data Yang Diinginkan Melalui Form Di Bawah Ini
+              </p>
+            </div>
+
+            <div class="formbold-input-flex">
+              <div>
+                <label for="firstname" class="formbold-form-label">
+                  Nama
+                </label>
+                <input
+                  type="text"
+                  name="user_name"
+                  id="user_name"
+                  class="formbold-form-input"
+                  value=""
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="formbold-input-flex">
+              <div>
+                <label for="email" class="formbold-form-label"> Email </label>
+                <input
+                  type="email"
+                  name="user_email"
+                  id="user_email"
+                  class="formbold-form-input"
+                  value=""
+                  required
+                />
+              </div>
+              <div>
+                <label class="formbold-form-label"> Nomor Handphone </label>
+                <input
+                  type="text"
+                  name="user_phone"
+                  id="user_phone"
+                  class="formbold-form-input"
+                  value=""
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="formbold-mb-3">
+              <label for="address" class="formbold-form-label"> Alamat </label>
+              <input
+                type="text"
+                name="user_address"
+                id="user_address"
+                class="formbold-form-input"
+                value=""
+                required
+              />
+            </div>
+
+            <div class="formbold-input-flex">
+              <div>
+                <label for="state" class="formbold-form-label"> Umur </label>
+                <input
+                  type="number"
+                  name="user_age"
+                  id="user_age"
+                  class="formbold-form-input"
+                  value=""
+                  required
+                />
+              </div>
+            </div>
+
+            <button type="submit" class="formbold-btn">Perbarui Data</button>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="../JS/updateData.js"></script>
+</html>
